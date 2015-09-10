@@ -1,0 +1,61 @@
+How did viewing a diff between two version of a file help you see the bug that
+was introduced?
+
+The 'diff' command returns only those lines that differ between the two files
+given to it as arguments. It marks lines that have been removed with minus 
+signs and lines that have been added with plus signs. Because it displays only
+the lines that are different between the two files, diff makes it very easy to
+spot any errors that were made during development.
+
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+If you add a new feature to your software and then notice that something has 
+gone wrong, version control could likely help you to isolate the cause of this
+new issue.
+
+
+What do you think are the pros and cons of manually choosing when to create a 
+commit, like you do in Git, vs. having versions automatically saved, like 
+Google Docs does?
+
+pros = commits come at logical points (when a logical change has been 
+incorporated, not in the middle of a line of code or before you are done coding
+a particular function)
+cons = user error (may forget to make commits at important times, causing loss 
+of data)
+
+
+Why do you think some version control systems, like Git, allow saving multiple 
+files in one commit, while others, like Google Docs, treat each file 
+separately?
+
+Google Docs, Dropbox, Wikipedia, etc. were not created as version control 
+systems for developers. Therefore, they are not as useful in handling files
+containing source code as Git, SVN, and CVS are. 
+
+
+How can yoy use the commands 'git log' and 'git diff' to view the history of
+files?
+
+The 'git log' command allows you to view the history of all commits made; the
+'git diff' command gives you a line-by-line breakdown of differences between
+the two files inputted along with the command as arguments. 
+
+
+How might using version control make you more confident to make changes that 
+could break something?
+
+You have reassurance that you can revert to working iterations of your source 
+code in the event that the changes you introduce during the revision process 
+end up introducing bugs. With this sense of security, you're more likely to 
+be bold when attempting to add new features to your software than you otherwise
+would be. Without version control, developers often take baby steps in fear of
+introducing bugs; Git and other version control systems mitigate this tendency.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I'll be using Git to keep track of the projects I work on whilst studying with
+Udacity and - afterwards - for the forseeable future. 
