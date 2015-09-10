@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+By using the "git init" command, a new git repository is created in the working
+directory. You'll know that a git repository has been created if running the 
+command "ls -a" (or, alternatively, "ls --all") lists a ".git" directory in the
+output. In order to add version control to your work, git init must be 
+employed.
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+The "working directory" is just a folder on your computer. This directory can 
+be turned into a "git repository" using the "git init" command. Once you have a
+git repository initialized in a working directory, you can make commits. Git 
+provides a feature known as the "staging area" that serves as a queue of the 
+files you wish to add to your next commit. 
