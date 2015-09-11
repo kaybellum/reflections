@@ -33,3 +33,21 @@ organized? How would branches help?
 Branches are good if you want to have alternate versions of your code - for 
 instance, an easier version of a game, one in a foreign language, etc. 
 
+
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+The merge feature allows the developer to work on features for a particular 
+program in isolation of the main, currently functional prototype. Once the 
+developer finishes working on said features, he can merge the two branches, 
+incorporating the features of the separate branch into the functional program. 
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+The pros of automatic merging in Git include conflict resolution. Conflict 
+resolution can also be a con because it's not the most straight-forward 
+process? (not really sure on this one...)
+
+
