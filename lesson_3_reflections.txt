@@ -22,3 +22,11 @@ made of existing local repositories to another destination on your local drive
 or another local drive. Forks occur only on the Github server; they allow you 
 to take someone else's work and create a separate copy of it so that you can 
 make modifications independently of what they're doing. 
+
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+By storing the last-known state of a remote locally, you will be able to make 
+changes to it whilst other collaborators make their own changes. You can then 
+merge your changes with theirs once you are all satisfied with your progress. 
