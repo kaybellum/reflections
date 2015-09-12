@@ -42,3 +42,12 @@ systems are easier than Git/GitHub. However, neither Google Docs nor Dropbox
 allows you to decide when to save states (make "commits"); they don't provide 
 the level of control that Git and GitHub do and are not as capable for handling
 developers' projects.  
+
+
+When would you want to make changes in a separate branch rather than directly 
+in master? What benefits does each approach have?
+
+Making changes in a separate branch is beneficial when you'd like to add a new 
+feature, but you want to test it out before committing it to the master. This 
+approach will prevent you from ruining all of the work that has been done in 
+the master branch. 
