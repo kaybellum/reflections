@@ -30,3 +30,15 @@ stored locally?
 By storing the last-known state of a remote locally, you will be able to make 
 changes to it whilst other collaborators make their own changes. You can then 
 merge your changes with theirs once you are all satisfied with your progress. 
+
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+I guess I would use something like Google Docs or Dropbox. Each of these 
+systems require less of learning curve to get up and running; there is no need 
+to utilize the command line in either case. So, in this way, I suppose these 
+systems are easier than Git/GitHub. However, neither Google Docs nor Dropbox 
+allows you to decide when to save states (make "commits"); they don't provide 
+the level of control that Git and GitHub do and are not as capable for handling
+developers' projects.  
