@@ -11,3 +11,14 @@ automatically stay up-to-date with your remote repository?
 
 A collaborator might introduce a change on the remote repository that you don't
 approve of. Also, you may end up with far too many unnecessary commits. 
+
+
+Describe the differences between forks, clones, and branches. When would you 
+use one instead of another?
+
+Branches are made within a repository. By cloning, a repository is pulled off 
+of the remote Github server and copied to your local drive. Clones can also be 
+made of existing local repositories to another destination on your local drive 
+or another local drive. Forks occur only on the Github server; they allow you 
+to take someone else's work and create a separate copy of it so that you can 
+make modifications independently of what they're doing. 
